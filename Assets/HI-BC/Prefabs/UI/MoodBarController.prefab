@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8469596620949570240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8469596620949570242}
+  - component: {fileID: 8469596620949570243}
+  m_Layer: 0
+  m_Name: MoodBarController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8469596620949570242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8469596620949570240}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8469596620949570243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8469596620949570240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0160b1be3e787e43a6f676f65c6cf93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _backgroundImage: {fileID: 0}
+  startingScene: {fileID: 21300000, guid: e41aeee473e8dec448988bd444f25259, type: 3}
+  sittingNeutral: {fileID: 21300000, guid: 5629ce930f50e8c468d568bd62ed8ba8, type: 3}
+  sittingRaiseRight: {fileID: 21300000, guid: adba3f4be4898e045a8ddf07b5e8da93, type: 3}
+  sittingRaiseLeft: {fileID: 21300000, guid: 72caa73c265d9a9488e8e0ce57b94546, type: 3}
+  sittingRaiseBoth: {fileID: 21300000, guid: abd6b610e8e6e5c49b8e33178676309c, type: 3}
+  sittingTouchTender: {fileID: 21300000, guid: 3ef374831f075c745a7808a8e7de79bf, type: 3}
+  standing: {fileID: 21300000, guid: f0a37a8c072ebd24fa898e1d1e7d6431, type: 3}
+  standingRaiseRight: {fileID: 21300000, guid: 6c411a4712225c14cbf1845371fc4786, type: 3}
+  standingRaiseLeft: {fileID: 21300000, guid: 258ab278b55ee8146933f6df846fa650, type: 3}
+  standingRaiseBoth: {fileID: 21300000, guid: fc714b390b890e54f8dc1bb42f2dbec4, type: 3}
+  standingTouchTender: {fileID: 21300000, guid: e16f9ca9efbe1e446b28bccb51844253, type: 3}
+  lyingDown: {fileID: 21300000, guid: d79547f3dc1d1df4e891e36b46e28358, type: 3}
+  lyingDownRaiseRight: {fileID: 21300000, guid: 0178c0cce8d14b84a9c8bb893693558f, type: 3}
+  lyingDownRaiseLeft: {fileID: 21300000, guid: e80e5cf2cb8cb4141bf10e9ce98d3bcf, type: 3}
+  lyingDownRaiseBoth: {fileID: 21300000, guid: aee6e553a6e825b46812834689fde75c, type: 3}
+  tripodSprite: {fileID: 21300000, guid: 2d0bd422125122b43b2705f7c0454d0d, type: 3}
+  raiseRight45Deg: {fileID: 21300000, guid: 46653887e0908ef40b52a939aeaaea00, type: 3}
+  raiseLeft45Deg: {fileID: 21300000, guid: a4cad2e931968b44a937dc2ca811d552, type: 3}
+  leftImg: {fileID: 0}
+  rightImg: {fileID: 0}
+  bothImg: {fileID: 0}
+  undressImg: {fileID: 0}
+  tenderImg: {fileID: 0}
+  tripodImg: {fileID: 0}
+  raiseLeft45Img: {fileID: 0}
+  raiseRight45Img: {fileID: 0}
+  raiseLeftBtn: {fileID: 21300000, guid: ba47ad5cfeeb6e8429579e77a651d560, type: 3}
+  raiseLeftBtn2: {fileID: 21300000, guid: 6f568d6369e052644b1cf0cbc20fb172, type: 3}
+  raiseRightBtn: {fileID: 21300000, guid: a857f79a12791cf408f5a92d88950ee2, type: 3}
+  raiseRightBtn2: {fileID: 21300000, guid: ca351c1c06fa3a74d82e0656f900d4d0, type: 3}
+  raiseBothBtn: {fileID: 21300000, guid: f2041af5d2c90914dacdb33abba219c8, type: 3}
+  raiseBothBtn2: {fileID: 21300000, guid: 529c564ae8178fe4e81eb59244020474, type: 3}
+  undressBtn: {fileID: 21300000, guid: c1b35d110302e664bbd6c019f178d7c9, type: 3}
+  undressBtn2: {fileID: 21300000, guid: 59742682be67df84eb9be4d1e88852d8, type: 3}
+  tenderImgBtn: {fileID: 21300000, guid: 6a824dcf602fdd644961462af6550b70, type: 3}
+  tenderImgBtn2: {fileID: 21300000, guid: 54a82be2044e4314a947fcba17f379d4, type: 3}
+  tripodBtn: {fileID: 21300000, guid: e52283fea7497bb4aab10d1dd5d0193b, type: 3}
+  tripodBtn2: {fileID: 21300000, guid: 428b05529ac9b514ab41c4fe15a3417e, type: 3}
+  raiseRight45Btn: {fileID: 21300000, guid: edb17fef380c1f14da28e354522d4800, type: 3}
+  raiseRight45Btn2: {fileID: 21300000, guid: 1ae7ff263f74ad54ea4b7f03c442e021, type: 3}
+  raiseLeft45Btn: {fileID: 21300000, guid: 27709366a5f95a94f81e4b2c463a2af0, type: 3}
+  raiseLeft45Btn2: {fileID: 21300000, guid: d4fd7579d61d4b04cb679d4b10b3d258, type: 3}
+  myCanvas: {fileID: 0}
+  handCursorTransform: {fileID: 0}
+  handCursorImg: {fileID: 0}
+  moodImg: {fileID: 0}
+  angry: {fileID: 21300000, guid: 3a72e44b99d15d74caf6d20a0fc2c65c, type: 3}
+  anxious: {fileID: 21300000, guid: 3b53bf5abe7919f4f9044b87b69d6155, type: 3}
+  confused: {fileID: 21300000, guid: 7c3f3d853ed89434a8f9c6503ffdea30, type: 3}
+  embarassed: {fileID: 21300000, guid: 865512ce8cb1ffa4daca4a5df2d6fbbf, type: 3}
+  calm: {fileID: 21300000, guid: e3bbab1a41cc50f4e8d596ef13f25448, type: 3}
+  moodBarText: {fileID: 0}
