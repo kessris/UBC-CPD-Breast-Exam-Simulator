@@ -192,10 +192,9 @@ public class DoctorButtonSetup : MonoBehaviour
 
             DoctorToolbar docTool = GameObject.Find("Toolbars").GetComponent<DoctorToolbar>();
             if (docTool != null) docTool.CloseControlGuide();
+            
 
-
-            var patient = GameObject.Find("PatientDetector").GetComponent<PatientDetector>().patient;//GameObject.Find("Female Patient March 23(Clone)");
-
+            var patient = GameObject.Find("PatientDetector").GetComponent<PatientDetector>().patient;
 
             if (patient != null)
             {
